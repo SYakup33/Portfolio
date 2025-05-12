@@ -1,3 +1,6 @@
+import "./Home.css";
+import "../../index.css";
+
 import { Link, useNavigate } from "react-router";
 
 function Home() {
