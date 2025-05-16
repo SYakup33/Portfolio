@@ -46,3 +46,7 @@
 .lang_menu:hover ul {
 	display: block;
 }
+
+.lang_menu .selected_lang .selected_lang_text {
+	color: var(--header-footer-font-color);
+}

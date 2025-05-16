@@ -1,7 +1,34 @@
 import LanguageButton from "../language_button/LanguageButton";
+import { useTranslation } from "react-i18next";
+import "./Header.css";
+import logo from "../../images/hud/logo.svg";
+import { Link, useNavigate } from "react-router";
 
 function Header() {
-	return <LanguageButton />;
+	const { t } = useTranslation();
+	return (
+		<>
+			<nav>
+				<img src={logo} alt="logo de Yakup" />
+				<ul className="nav_list">
+					<Link to="/" className="link">
+						<li>{t("navigation.about")}</li>
+					</Link>
+					<Link to="/experiences" className="link">
+						<li>{t("navigation.experiences")}</li>
+					</Link>
+					<Link to="/projects" className="link">
+						<li>{t("navigation.projects")}</li>
+					</Link>
+					<Link to="/skills" className="link">
+						<li>{t("navigation.skills")}</li>
+					</Link>
+
+					<LanguageButton />
+				</ul>
+			</nav>
+		</>
+	);
 }
 
 export default Header;

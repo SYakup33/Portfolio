@@ -23,7 +23,9 @@ function LanguageButton() {
 					alt={`Flag for ${i18n.language}`}
 					className="selected_flag"
 				/>
-				{i18n.language.toUpperCase()}
+				<span className="selected_lang_text">
+					{i18n.language.toUpperCase()}
+				</span>
 			</div>
 
 			<ul>

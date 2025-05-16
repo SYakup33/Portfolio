@@ -9,9 +9,6 @@ function Home() {
 	return (
 		<>
 			<Header />
-			<div>
-				<h1>{t("welcome")}</h1>
-			</div>
 		</>
 	);
 }

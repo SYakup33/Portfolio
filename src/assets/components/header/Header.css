@@ -1,0 +1,23 @@
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: var(--header-footer-bg-color);
+}
+
+nav .nav_list {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+nav .nav_list li {
+	margin: 0 1em 0 1em;
+	color: var(--header-footer-font-color);
+	list-style: none;
+	font-size: var(--header-nav-size);
+}
+
+nav .nav_list:last-child {
+	margin-right: 3em;
+}
