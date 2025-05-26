@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import "./LanguageButton.css";
 import "../../../../i18n.tsx";
 import engFlag from "../../../images/language_button/england_flag.png";
-import frFlag from "../..//images/language_button/france_flag.png";
+import frFlag from "../../../images/language_button/france_flag.png";
 import LanguageButtonModal from "../languageButtonModal/LanguageButtonModal.tsx";
 
 function LanguageButton() {
