@@ -1,4 +1,4 @@
-import LanguageButton from "../language_button/LanguageButton";
+import LanguageButton from "./languageButton/LanguageButton";
 import { useTranslation } from "react-i18next";
 import "./Header.css";
 import logo from "../../images/hud/logo.svg";
