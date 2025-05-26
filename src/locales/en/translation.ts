@@ -4,5 +4,6 @@ export const translationEnglish = {
 		experiences: "Experiences",
 		projects: "Projects",
 		skills: "Skills",
+		modalTitle: "Choose your language",
 	},
 };

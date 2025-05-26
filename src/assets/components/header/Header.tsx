@@ -2,7 +2,7 @@ import LanguageButton from "../language_button/LanguageButton";
 import { useTranslation } from "react-i18next";
 import "./Header.css";
 import logo from "../../images/hud/logo.svg";
-import { Link, useNavigate } from "react-router";
+import { Link } from "react-router";
 
 function Header() {
 	const { t } = useTranslation();

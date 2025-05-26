@@ -1,52 +1,18 @@
-.lang_menu {
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-}
-
 .selected_lang {
 	cursor: pointer;
 	display: flex;
-	justify-content: space-between;
-	line-height: 2;
-	width: 100px;
-}
-
-.selected_lang:before {
-	content: "";
-	display: block;
-	width: 32px;
-	height: 32px;
-}
-
-.lang_menu ul {
-	margin: 0;
-	padding: 0;
-	background-color: #fff;
-	border: 1px solid #f8f8f8;
-	box-shadow: 6px 10px 19px 0px #000000;
-	width: 150px;
-	display: none;
-}
-
-.lang_menu ul li button {
-	background: none;
-	border: none;
-	width: 125px;
-	display: flex;
 	align-items: center;
-	justify-content: space-around;
-	padding: 5px 10px;
+	gap: 8px;
+	font-weight: bold;
+	user-select: none;
 }
 
-.lang_menu ul li button:hover {
-	background-color: #f2f2f2;
+.selected_flag {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
 }
 
-.lang_menu:hover ul {
-	display: block;
-}
-
-.lang_menu .selected_lang .selected_lang_text {
+.selected_lang_text {
 	color: var(--header-footer-font-color);
 }
