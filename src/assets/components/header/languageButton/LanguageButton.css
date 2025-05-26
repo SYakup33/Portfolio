@@ -10,7 +10,7 @@
 	gap: 8px;
 	font-weight: bold;
 	user-select: none;
-	background-color: #f5f5f5;
+	background-color: var(--header-footer-font-color);
 	padding: 8px 12px;
 	border-radius: 8px;
 	transition: background-color 0.2s ease;
@@ -40,7 +40,7 @@
 	top: 110%;
 	right: 0;
 	background-color: #ffffff;
-	border: 1px solid #ccc;
+	border: 1px solid var(--header-footer-font-color);
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
 	border-radius: 8px;
 	overflow: hidden;
