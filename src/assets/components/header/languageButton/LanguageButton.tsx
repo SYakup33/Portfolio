@@ -6,7 +6,7 @@ import engFlag from "../../../images/language_button/england_flag.png";
 import frFlag from "../../../images/language_button/france_flag.png";
 
 function LanguageButton() {
-	const { i18n } = useTranslation();
+	const { t, i18n } = useTranslation();
 	const [open, setOpen] = useState(false);
 	const ref = useRef<HTMLDivElement>(null);
 
@@ -29,7 +29,7 @@ function LanguageButton() {
 			>
 				<img
 					src={flags[i18n.language as "fr" | "en"]}
-					alt={`Flag for ${i18n.language}`}
+					alt={`${t("alt.selectedFlag")} ${i18n.language}`}
 					className="selected_flag"
 				/>
 				<span className="selected_lang_text">
@@ -41,10 +41,10 @@ function LanguageButton() {
 			{open && (
 				<div className="lang_dropdown">
 					<button type="button" onClick={() => changeLanguage("fr")}>
-						<img src={frFlag} alt="French Flag" /> Français
+						<img src={frFlag} alt={t("alt.frFlag")} /> Français
 					</button>
 					<button type="button" onClick={() => changeLanguage("en")}>
-						<img src={engFlag} alt="English Flag" /> English
+						<img src={engFlag} alt={t("alt.engFlag")} /> English
 					</button>
 				</div>
 			)}

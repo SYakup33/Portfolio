@@ -15,24 +15,24 @@ function Footer() {
 			<cite id="citation">{t("footer.bio")}</cite>
 			<figure id="mail">
 				<a href="mailto:yakup.senel33@gmail.com">
-					<img src={mail} alt="Envoyer un mail à Yakup" />
+					<img src={mail} alt={t("alt.footerMail")} />
 				</a>
 				<figcaption>
 					<a href="mailto:yakup.senel33@gmail.com">yakup.senel33@gmail.com</a>
 				</figcaption>
 			</figure>
 			<a id="github" href="https://github.com/SYakup33">
-				<img src={github} alt="Logo de Github" />
+				<img src={github} alt={t("alt.footerGithub")} />
 			</a>
 			<a
 				id="linkedin"
 				href="https://www.linkedin.com/in/yakup-senel-8159a7146/"
 			>
-				<img src={linkedin} alt="Logo de Linkedin" />
+				<img src={linkedin} alt={t("alt.footerLinkedin")} />
 			</a>
 
 			<a id="twitter" href="https://x.com/Yakup33100">
-				<img src={twitter} alt="Logo de Twitter" />
+				<img src={twitter} alt={t("alt.footerTwitter")} />
 			</a>
 
 			<hr />
