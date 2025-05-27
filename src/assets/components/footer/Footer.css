@@ -27,10 +27,11 @@ footer #citation {
 	align-self: center;
 	justify-self: center;
 	font-size: var(--footer-p-size);
+	margin-left: 1em;
 }
 
 footer #mail {
-	grid-area: 5 / 1 / 6 / 2;
+	grid-area: 5 / 1 / 6 / 4;
 	display: flex;
 	font-size: var(--footer-p-size);
 }
@@ -39,12 +40,9 @@ footer #mail img {
 	margin: 0 1em 0 1em;
 }
 
-footer #mail figcaption {
+footer #mail a {
 	height: 100%;
-	align-self: center;
-}
-
-footer #mail figcaption a {
+	align-self: flex-start;
 	color: var(--header-footer-font-color);
 }
 
