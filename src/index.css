@@ -16,6 +16,8 @@
 	--p-size: 14px;
 	--card-p-size: 14px;
 	--header-nav-size: 26px;
+	--footer-title-size: 28px;
+	--footer-p-size: 18px;
 }
 
 * {
@@ -23,8 +25,13 @@
 	padding: 0;
 	box-sizing: border-box;
 	text-decoration: none;
+	font-family: var(--main-font);
 }
 
 li {
 	list-style: none;
+}
+
+ins {
+	text-decoration: underline;
 }
