@@ -27,6 +27,7 @@ footer #citation {
 	align-self: center;
 	justify-self: center;
 	font-size: var(--footer-p-size);
+	margin-left: 1em;
 }
 
 footer #mail {
