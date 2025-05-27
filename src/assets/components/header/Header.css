@@ -4,6 +4,11 @@ nav {
 	align-items: center;
 	background-color: var(--header-footer-bg-color);
 	max-height: 10vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
 }
 
 nav .nav_list {
