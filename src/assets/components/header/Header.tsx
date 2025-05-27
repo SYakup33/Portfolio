@@ -9,7 +9,7 @@ function Header() {
 	return (
 		<>
 			<nav>
-				<img src={logo} alt="logo de Yakup" />
+				<img src={logo} alt={t("alt.myLogo")} />
 				<ul className="nav_list">
 					<Link to="/" className="link">
 						<li>{t("navigation.about")}</li>
