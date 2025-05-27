@@ -6,6 +6,7 @@
 	--list-item-bg-color: #3b82f6;
 	--btn-bg-color: #178800;
 	--header-footer-bg-color: #1d1616;
+	--header-footer-font-color: #d9d9d9;
 	--card-bg-color: #d9d9d9;
 
 	--title-size: 32px;
@@ -14,10 +15,23 @@
 	--subtitle-size: 20px;
 	--p-size: 14px;
 	--card-p-size: 14px;
+	--header-nav-size: 26px;
+	--footer-title-size: 28px;
+	--footer-p-size: 18px;
 }
 
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	text-decoration: none;
+	font-family: var(--main-font);
+}
+
+li {
+	list-style: none;
+}
+
+ins {
+	text-decoration: underline;
 }
