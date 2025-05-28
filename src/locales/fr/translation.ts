@@ -43,4 +43,8 @@ export const translationFrench = {
 			},
 		],
 	},
+	flipCard: {
+		buttonFront: "Détails",
+		buttonBack: "Aperçu",
+	},
 };
