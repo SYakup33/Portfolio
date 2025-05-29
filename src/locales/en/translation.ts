@@ -29,6 +29,7 @@ export const translationEnglish = {
 		ax2012: "Logo of Microsoft AX 2012",
 		d365fo: "Logo of Microsoft Dynamics 365 Finance and Operations",
 		code: "A logo that stands for code",
+		experiencesOverview: "Developers at work",
 	},
 	home: {
 		title: "Hi, I'm Yakup!",
@@ -56,6 +57,22 @@ export const translationEnglish = {
 		buttonBack: "Overview",
 	},
 	experiences: {
+		years: "years",
+		cardSectionTitle: "My professional experience in development",
+		overview: {
+			title: "Experiences",
+			content: [
+				{
+					text: "It was in Microsoft ERP development that I discovered my first passion for code and business applications. This experience gave me the desire to go further into web development. ",
+				},
+				{
+					text: "Before that, I had already had the opportunity to practice development during my studies in electronics, through projects and internships mixing electronics and programming.",
+				},
+				{
+					text: "These early experiences gave me a real interest in software solutions to meet business needs.",
+				},
+			],
+		},
 		avanade: {
 			cardFront: {
 				title: "ERP Developer",
@@ -76,6 +93,5 @@ export const translationEnglish = {
 				},
 			],
 		},
-		years: "years",
 	},
 };

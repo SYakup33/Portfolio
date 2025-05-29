@@ -22,6 +22,7 @@
 	--footer-p-size: 18px;
 	--home-title-size: 40px;
 	--home-p-size: 20px;
+	--pages-overview-size: 20px;
 }
 
 * {
@@ -38,4 +39,14 @@ li {
 
 ins {
 	text-decoration: underline;
+}
+
+.content_change {
+	width: 80%;
+	margin: 3em auto;
+	border: none;
+	height: 3px;
+	background: linear-gradient(90deg, black, black);
+	border-radius: 2px;
+	opacity: 0.8;
 }
