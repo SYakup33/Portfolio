@@ -2,6 +2,7 @@ import { useState } from "react";
 import FlipButton from "./FlipButton";
 import "./FlipCard.css";
 import ReactCardFlip from "react-card-flip";
+import { useTranslation } from "react-i18next";
 
 interface FlipCardProps {
 	frontContent: React.ReactNode;
@@ -13,8 +14,11 @@ function FlipCard({ frontContent, backContent }: FlipCardProps) {
 
 	const flipCard = () => setIsFlipped(!isFlipped);
 
+	const { t } = useTranslation();
+
 	return (
-		<>
+		<div className="my_experiences">
+			<h1 className="experiences_title">{t("experiences.cardSectionTitle")}</h1>
 			<ReactCardFlip flipDirection="horizontal" isFlipped={isFlipped}>
 				<div className="card card_front">
 					{frontContent}
@@ -25,7 +29,7 @@ function FlipCard({ frontContent, backContent }: FlipCardProps) {
 					<FlipButton onClick={flipCard} isFlipped={isFlipped} />
 				</div>
 			</ReactCardFlip>
-		</>
+		</div>
 	);
 }
 
