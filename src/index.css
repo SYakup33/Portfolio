@@ -4,13 +4,15 @@
 	--font-color: black;
 	--list-bg-color: #3b82f6;
 	--list-item-bg-color: #3b82f6;
-	--btn-bg-color: #178800;
-	--header-footer-bg-color: #1d1616;
+	--btn-bg-color: #264773;
+	--btn-border-color: #143157;
+	--header-footer-bg-color: #010d26;
 	--header-footer-font-color: #d9d9d9;
-	--card-bg-color: #d9d9d9;
+	--card-front-bg-color: #f2f2f2;
+	--card-back-bg-color: #959ba5;
 
 	--title-size: 32px;
-	--card-title-size: 32px;
+	--card-title-size: 28px;
 	--card-subtitle-size: 24px;
 	--subtitle-size: 20px;
 	--p-size: 14px;

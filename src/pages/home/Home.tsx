@@ -21,7 +21,7 @@ function Home() {
 	return (
 		<>
 			<Header />
-			<figure>
+			<figure id="home_figure">
 				<img src={devImage} alt={t("alt.devImage")} />
 				<figcaption>
 					<h1>{t("home.title")}</h1>

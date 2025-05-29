@@ -1,4 +1,4 @@
-figure {
+#home_figure {
 	width: 30%;
 	margin: auto;
 	margin-top: 2em;
@@ -7,12 +7,12 @@ figure {
 	align-items: center;
 }
 
-figure img {
+#home_figure img {
 	width: 80%;
 	margin: auto;
 }
 
-figure figcaption h1 {
+#home_figure figcaption h1 {
 	font-size: var(--home-title-size);
 }
 
