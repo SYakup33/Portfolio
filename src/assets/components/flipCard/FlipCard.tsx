@@ -1,6 +1,7 @@
 import { useState } from "react";
-import FlipButton from "./ButtonFlip";
+import FlipButton from "./FlipButton";
 import "./FlipCard.css";
+import ReactCardFlip from "react-card-flip";
 
 interface FlipCardProps {
 	frontContent: React.ReactNode;
@@ -10,17 +11,20 @@ interface FlipCardProps {
 function FlipCard({ frontContent, backContent }: FlipCardProps) {
 	const [isFlipped, setIsFlipped] = useState(false);
 
-	const handleFlip = () => setIsFlipped(!isFlipped);
+	const flipCard = () => setIsFlipped(!isFlipped);
 
 	return (
 		<>
-			<div className={`flip-card ${isFlipped ? "flipped" : ""}`}>
-				<div className="flip-card-inner">
-					<div className="flip-card-front">{frontContent}</div>
-					<div className="flip-card-back">{backContent}</div>
+			<ReactCardFlip flipDirection="horizontal" isFlipped={isFlipped}>
+				<div className="card card_front">
+					{frontContent}
+					<FlipButton onClick={flipCard} isFlipped={isFlipped} />
 				</div>
-			</div>
-			<FlipButton onClick={handleFlip} isFlipped={isFlipped} />
+				<div className="card card_back">
+					{backContent}
+					<FlipButton onClick={flipCard} isFlipped={isFlipped} />
+				</div>
+			</ReactCardFlip>
 		</>
 	);
 }

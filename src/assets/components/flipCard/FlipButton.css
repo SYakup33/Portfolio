@@ -1,7 +1,6 @@
 .flip_btn {
 	--bg: var(--btn-bg-color);
 	--text-color: var(--font-color);
-	position: relative;
 	width: 150px;
 	border: none;
 	background: var(--bg);
@@ -14,6 +13,8 @@
 	opacity: 0.8;
 	letter-spacing: 1px;
 	box-shadow: var(--btn-border-color) 0px 7px 2px, #000 0px 8px 5px;
+	width: 50%;
+	margin: 2em auto;
 }
 
 .flip_btn:hover {

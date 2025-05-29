@@ -21,6 +21,14 @@ export const translationFrench = {
 		footerLinkedin: "Logo de Linkedin",
 		footerTwitter: "Logo de Twitter",
 		devImage: "Image d'un développeur",
+		companyAvanade: "Logo d'Avanade",
+		workTechnologyMicrosoftDynamics: "ERP de Microsoft, Microsoft Dynamics",
+		calendar: "Un calendrier",
+		md365: "Logo de Microsoft Dynamics 365",
+		ax2009: "Logo de Microsoft AX 2009",
+		ax2012: "Logo de Microsoft AX 2012",
+		d365fo: "Logo de Microsoft Dynamics 365 Finance et Operations",
+		code: "Un logo qui siginifie du code",
 	},
 	home: {
 		title: "Salut, moi c’est Yakup !",
@@ -46,5 +54,28 @@ export const translationFrench = {
 	flipCard: {
 		buttonFront: "Détails",
 		buttonBack: "Aperçu",
+	},
+	experiences: {
+		avanade: {
+			cardFront: {
+				title: "Développeur ERP",
+				subTitle: "Alternance",
+			},
+			cardBack: [
+				{
+					text: "Maintenance applicative (TMA) sur les ERP Microsoft",
+				},
+				{
+					text: "Traitement des besoins cliente via un système de tickets",
+				},
+				{
+					text: "Réalisation d’évolutions fonctionnelles, de corrections d’anomalies et de support technique",
+				},
+				{
+					text: "Découverte des processus et des enjeux métiers liés aux ERP",
+				},
+			],
+		},
+		years: "ans",
 	},
 };

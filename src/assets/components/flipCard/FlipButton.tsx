@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import "./ButtonFlip.css";
+import "./FlipButton.css";
 
 interface FlipButtonProps {
 	onClick: () => void;
@@ -10,7 +10,7 @@ function FlipButton({ onClick, isFlipped }: FlipButtonProps) {
 	const { t } = useTranslation();
 	return (
 		<button type="button" className="flip_btn" onClick={onClick}>
-			{isFlipped ? t("flipCard.buttonFront") : t("flipCard.buttonBack")}
+			{isFlipped ? t("flipCard.buttonBack") : t("flipCard.buttonFront")}
 		</button>
 	);
 }

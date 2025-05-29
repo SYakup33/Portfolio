@@ -21,6 +21,14 @@ export const translationEnglish = {
 		footerLinkedin: "Logo of Linkedin",
 		footerTwitter: "Logo of Twitter",
 		devImage: "Image of a developer",
+		companyAvanade: "Logo of Avanade",
+		workTechnologyMicrosoftDynamics: "ERP from Microsoft, Microsoft Dynamics",
+		calendar: "A calendar",
+		md365: "Logo of Microsoft Dynamics 365",
+		ax2009: "Logo of Microsoft AX 2009",
+		ax2012: "Logo of Microsoft AX 2012",
+		d365fo: "Logo of Microsoft Dynamics 365 Finance and Operations",
+		code: "A logo that stands for code",
 	},
 	home: {
 		title: "Hi, I'm Yakup!",
@@ -46,5 +54,28 @@ export const translationEnglish = {
 	flipCard: {
 		buttonFront: "Details",
 		buttonBack: "Overview",
+	},
+	experiences: {
+		avanade: {
+			cardFront: {
+				title: "ERP Developer",
+				subTitle: "Work-study",
+			},
+			cardBack: [
+				{
+					text: "Application maintenance for Microsoft ERP systems",
+				},
+				{
+					text: "Handling customer requirements via a ticketing system",
+				},
+				{
+					text: "Carrying out functional upgrades, bug fixes and technical support",
+				},
+				{
+					text: "Discover the business processes and challenges associated with ERP systems",
+				},
+			],
+		},
+		years: "years",
 	},
 };
