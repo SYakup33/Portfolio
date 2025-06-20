@@ -1,4 +1,10 @@
 export const translationEnglish = {
+	global: {
+		days: "days",
+		months: "months",
+		years: "years",
+		weeks: "weeks",
+	},
 	navigation: {
 		about: "About",
 		experiences: "Experiences",
@@ -30,6 +36,26 @@ export const translationEnglish = {
 		d365fo: "Logo of Microsoft Dynamics 365 Finance and Operations",
 		code: "A logo that stands for code",
 		experiencesOverview: "Developers at work",
+		avanade: "Logo of Avanade",
+		projectsOverview: "Developers working on a project",
+		devPic: "Developer logo",
+		wf3: "Webforce3 school logo",
+		wcs: "WildCodeSchool logo",
+		html: "HTML language logo",
+		css: "CSS language logo",
+		react: "React library logo",
+		javascript: "Javascript logo",
+		typescript: "Typescript language logo",
+		json: "JSON format logo",
+		planner: "Planner logo",
+		link: "Pin logo",
+		github: "Github logo",
+		figma: "Figma software logo",
+		blazor: "Blazor framework logo",
+		csharp: "C# language logo",
+		aspdotnet: "ASP. NET framework",
+		azure: "Logo for the azure platform",
+		bootstrap: "Logo for the Bootstrap framework",
 	},
 	home: {
 		title: "Hi, I'm Yakup!",
@@ -57,7 +83,6 @@ export const translationEnglish = {
 		buttonBack: "Overview",
 	},
 	experiences: {
-		years: "years",
 		cardSectionTitle: "My professional experience in development",
 		overview: {
 			title: "Experiences",
@@ -90,6 +115,274 @@ export const translationEnglish = {
 				},
 				{
 					text: "Discover the business processes and challenges associated with ERP systems",
+				},
+			],
+		},
+	},
+	projects: {
+		cardSectionTitle: "My personal and team projects",
+		overview: {
+			title: "Projects",
+			main: "Here you can see the projects I've worked on throughout my career, both in training and as a self-taught developer. Each project reflects a stage in my apprenticeship and my passion for web development.",
+			content: [
+				{
+					text: "An application for managing the world's capitals, enabling you to discover the countries, their capitals and their special features.",
+				},
+				{
+					text: "This interactive portfolio is designed to tell my story and present my skills in a dynamic way.",
+				},
+				{
+					text: "An end-of-studies project carried out as part of my training as an Application Developer at WebForce3.",
+				},
+				{
+					text: "Viteuf, our very first group project at Wild Code School: a fast food website designed for users in a hurry.",
+				},
+				{
+					text: "A web game inspired by Papers, Please! revisited in the Pokémon universe with trainer control mechanisms.",
+				},
+				{
+					text: "An e-commerce site selling 3D products, created for a fictitious client, combining catalogue management and a fluid user interface.",
+				},
+			],
+		},
+		capitalList: {
+			cardFront: {
+				title: "Capital city libraries",
+				subTitle: "Personal project",
+			},
+			cardBack: [
+				{
+					descriptions: "Descriptions",
+					content: [
+						{
+							text: "Create a web application to display detailed information about the world's capitals",
+						},
+						{
+							text: "Each capital is accompanied by its country, the country's flag, an image of the capital and a brief description",
+						},
+						{
+							text: "All the data is stored locally, without an external database, in JSON files",
+						},
+					],
+				},
+				{
+					objectives: "Objectives",
+					content: [
+						{
+							text: "Create an intuitive interface for consulting the capitals and their information",
+						},
+						{
+							text: "Implement a search system to filter the capitals according to different criteria (by country, by continent)",
+						},
+						{
+							text: "Design an intuitive and fluid interface for pleasant browsing",
+						},
+					],
+				},
+				{
+					results: "Results",
+					content: [
+						{
+							text: "Fully functional application, accessible via a browser",
+						},
+						{
+							text: "Search and filter functions for finding specific capitals easily",
+						},
+						{
+							text: "Easy-to-use interface, offering fluid navigation between the various capitals and countries",
+						},
+					],
+				},
+			],
+		},
+		portfolio: {
+			cardFront: {
+				title: "Portfolio",
+				subTitle: "Personal project",
+			},
+			cardBack: [
+				{
+					descriptions: "Descriptions",
+					content: [
+						{
+							text: "Creation of a personal portfolio site to present my career path, my skills and the projects I have carried out during my training and in my personal life.",
+						},
+					],
+				},
+				{
+					objectives: "Objectives",
+					content: [
+						{
+							text: "To have a clear and accessible medium to promote my profile to recruiters and web professionals",
+						},
+						{
+							text: "To present my profile and skills in a structured and readable way",
+						},
+						{
+							text: "To promote my projects via detailed and interactive fact sheets",
+						},
+					],
+				},
+				{
+					results: "Results",
+					content: [
+						{
+							text: "Clear, user-friendly portfolio site, easy to consult via browser",
+						},
+						{
+							text: "Intuitive navigation with interactive project maps and light animations",
+						},
+						{
+							text: "Overview of my programming and project skills",
+						},
+					],
+				},
+			],
+		},
+		invicee: {
+			cardFront: {
+				title: "Invicee",
+				subTitle: "Invoice consultation",
+			},
+			cardBack: [
+				{
+					descriptions: "Descriptions",
+					content: [
+						{
+							text: "Final project for training as an application designer and developer",
+						},
+						{
+							text: "Development of a web-based invoicing application for Invicee (fictitious company), designed to simplify, speed up and secure the invoicing process for businesses and private individuals, while reducing the use of paper",
+						},
+					],
+				},
+				{
+					objectives: "Objectives",
+					content: [
+						{
+							text: "Dematerialise and automate the management of more than 1,000 invoices a day",
+						},
+						{
+							text: "Offer an intuitive interface adapted to computer users",
+						},
+						{
+							text: "Reduce the environmental impact of paper invoices",
+						},
+					],
+				},
+				{
+					results: "Results",
+					content: [
+						{
+							text: "Invoice generation",
+						},
+						{
+							text: "Full invoice history viewable by user",
+						},
+						{
+							text: "Overview of my programming and project skills",
+						},
+					],
+				},
+			],
+		},
+		viteuf: {
+			cardFront: {
+				title: "Viteuf",
+				subTitle: "Fast food",
+			},
+			cardBack: [
+				{
+					descriptions: "Descriptions",
+					content: [
+						{
+							text: "Group project 1 during training at WildCodeSchoole",
+						},
+						{
+							text: "Fast food platform offering meals ready in 10-15 minutes, for people in a hurry",
+						},
+						{
+							text: "With categories like dish of the day, anti-gaspi recipes, Asian style and more",
+						},
+					],
+				},
+				{
+					objectives: "Objectives",
+					content: [
+						{
+							text: "Helping people in their daily lives",
+						},
+						{
+							text: "Promoting fast, healthy and waste-free eating",
+						},
+						{
+							text: "Offering a fast and simple user experience",
+						},
+					],
+				},
+				{
+					results: "Results",
+					content: [
+						{
+							text: "Efficient categorisation of dishes to respond quickly to user preferences and constraints",
+						},
+						{
+							text: "Quick and accessible recipes in less than 15 minutes",
+						},
+						{
+							text: "Smooth and pleasant user experience, even on mobile phones",
+						},
+					],
+				},
+			],
+		},
+		pokedexPatrol: {
+			cardFront: {
+				title: "Pokedex Patrol",
+				subTitle: "Pokemon Papers Please",
+			},
+			cardBack: [
+				{
+					descriptions: "Descriptions",
+					content: [
+						{
+							text: "A web game inspired by Papers, Please, revisited in the Pokémon universe",
+						},
+						{
+							text: "The user takes on the role of a border control agent, responsible for checking the papers of trainers and their Pokémon before authorising them to enter a region or not",
+						},
+					],
+				},
+				{
+					objectives: "Objectifs",
+					content: [
+						{
+							text: "Reproducing the concept of Papers, Please in the Pokémon universe",
+						},
+						{
+							text: "Developing an interactive web application with a verification and decision-making logic",
+						},
+						{
+							text: "Managing different rules and situations depending on the regions and documents presented",
+						},
+					],
+				},
+				{
+					results: "Résultats",
+					content: [
+						{
+							text: "An immersive, interactive experience faithful to the Pokémon universe",
+						},
+						{
+							text: "Effective management of the verification logic and business rules",
+						},
+						{
+							text: "A fun project that has enabled us to work on data manipulation and user flow management",
+						},
+						{
+							text: "A project run using an agile method with short iterations and regular feedback to adjust functionality",
+						},
+					],
 				},
 			],
 		},

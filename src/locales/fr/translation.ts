@@ -1,4 +1,10 @@
 export const translationFrench = {
+	global: {
+		days: "jours",
+		months: "mois",
+		years: "ans",
+		weeks: "semaines",
+	},
 	navigation: {
 		about: "À propos",
 		experiences: "Expériences",
@@ -30,6 +36,26 @@ export const translationFrench = {
 		d365fo: "Logo de Microsoft Dynamics 365 Finance et Operations",
 		code: "Un logo qui siginifie du code",
 		experiencesOverview: "Des développeurs qui travaillent",
+		avanade: "Logo d' Avanade",
+		projectsOverview: "Des développeurs qui travaillent sur un projet",
+		devPic: "Logo d'un développeur",
+		wf3: "Logo de l'école Webforce3",
+		wcs: "Logo de l'école WildCodeSchool",
+		html: "Logo du langage HTML",
+		css: "Logo du langage CSS",
+		react: "Logo de la librairie React",
+		javascript: "Logo de Javascript",
+		typescript: "Logo du langage Typescript",
+		json: "Logo format JSON",
+		planner: "Logo d'un planning",
+		link: "Logo d' une épingle",
+		github: "Logo de Github",
+		figma: "Logo du logiciel Figma",
+		blazor: "Logo du framework Blazor",
+		csharp: "Logo Logo du langage C#",
+		aspdotnet: "Logo du framework ASP.NET",
+		azure: "Logo de la plateforme azure",
+		bootstrap: "Logo du framework Bootstrap ",
 	},
 	home: {
 		title: "Salut, moi c’est Yakup !",
@@ -57,7 +83,6 @@ export const translationFrench = {
 		buttonBack: "Aperçu",
 	},
 	experiences: {
-		years: "ans",
 		cardSectionTitle: "Mes expériences professionnelles dans le développement",
 		overview: {
 			title: "Expériences",
@@ -90,6 +115,274 @@ export const translationFrench = {
 				},
 				{
 					text: "Découverte des processus et des enjeux métiers liés aux ERP",
+				},
+			],
+		},
+	},
+	projects: {
+		cardSectionTitle: "Mes projets personnels en équipe",
+		overview: {
+			title: "Projets",
+			main: "Découvrez ici les projets que j’ai réalisés tout au long de mon parcours, aussi bien en formation qu’en autodidacte. Chaque projet reflète une étape de mon apprentissage et mes passions pour le développement web.",
+			content: [
+				{
+					text: "Une application de gestion des capitales du monde, permettant de découvrir les pays, leurs capitales et leurs particularités.",
+				},
+				{
+					text: "Ce portfolio interactif, conçu pour raconter mon histoire et présenter mes compétences de façon dynamique.",
+				},
+				{
+					text: "Un projet de fin d’études réalisé dans le cadre de ma formation de Concepteur Développeur d’Applications chez WebForce3.",
+				},
+				{
+					text: "Viteuf, notre tout premier projet de groupe à la Wild Code School : un site de restauration rapide pensé pour les utilisateurs pressés.",
+				},
+				{
+					text: "Un jeu web inspiré de Papers, Please!, revisité dans l’univers Pokémon avec des mécaniques de contrôle de dresseurs.",
+				},
+				{
+					text: "Un site e-commerce de vente de produits 3D, réalisé pour un client fictif, mêlant gestion de catalogue et interface utilisateur fluide.",
+				},
+			],
+		},
+		capitalList: {
+			cardFront: {
+				title: "Bibliothèques des capitales",
+				subTitle: "Projet personnel",
+			},
+			cardBack: [
+				{
+					descriptions: "Descriptions",
+					content: [
+						{
+							text: "Créer une application web affichant des informations détaillées sur les capitales du monde",
+						},
+						{
+							text: "Chaque capitale est accompagnée de son pays, du drapeau, d’une image de la capitale et d’une brève description",
+						},
+						{
+							text: "Toutes les données sont stockées localement, sans base de données externe, dans des fichiers JSON",
+						},
+					],
+				},
+				{
+					objectives: "Objectifs",
+					content: [
+						{
+							text: "Créer une interface intuitive pour consulter les capitales et leurs informations",
+						},
+						{
+							text: "Implémenter un système de recherche pour filtrer les capitales selon différents critères (pays, continent)",
+						},
+						{
+							text: "Concevoir une interface fluide et intuitive pour une navigation agréable",
+						},
+					],
+				},
+				{
+					results: "Résultats",
+					content: [
+						{
+							text: "Application entièrement fonctionnelle, accessible depuis un navigateur",
+						},
+						{
+							text: "Fonctions de recherche et de filtrage permettant de trouver facilement une capitale précise",
+						},
+						{
+							text: "Interface facile à utiliser, offrant une navigation fluide entre capitales et pays",
+						},
+					],
+				},
+			],
+		},
+		portfolio: {
+			cardFront: {
+				title: "Portfolio",
+				subTitle: "Projet personnel",
+			},
+			cardBack: [
+				{
+					descriptions: "Descriptions",
+					content: [
+						{
+							text: "Création d’un site portfolio personnel pour présenter mon parcours, mes compétences et mes projets réalisés au cours de ma formation et en personnel",
+						},
+					],
+				},
+				{
+					objectives: "Objectifs",
+					content: [
+						{
+							text: "Disposer d’un support clair et accessible pour valoriser mon profil auprès des recruteurs et professionnels du web",
+						},
+						{
+							text: "Présenter mon profil et mes compétences de manière structurée et lisible",
+						},
+						{
+							text: "Valoriser mes projets réalisés via des fiches détaillées et interactives",
+						},
+					],
+				},
+				{
+					results: "Résultats",
+					content: [
+						{
+							text: "Site portfolio clair et convivial, facilement consultable via navigateur",
+						},
+						{
+							text: "Navigation intuitive avec des cartes projets interactives et des animations légères",
+						},
+						{
+							text: "Aperçu sur mes compétences en programmation et projet",
+						},
+					],
+				},
+			],
+		},
+		invicee: {
+			cardFront: {
+				title: "Invicee",
+				subTitle: "Consultation de facture",
+			},
+			cardBack: [
+				{
+					descriptions: "Descriptions",
+					content: [
+						{
+							text: "Projet de fin formation concepteur développeur d’application",
+						},
+						{
+							text: "Réalisation d’une application web de facturation pour la société Invicee(société fictif), destinée à simplifier, accélérer et sécuriser le processus de facturation pour entreprises et particuliers, tout en réduisant l’usage du papier",
+						},
+					],
+				},
+				{
+					objectives: "Objectifs",
+					content: [
+						{
+							text: "Dématérialiser et automatiser la gestion de plus de 1000 factures par jour",
+						},
+						{
+							text: "Proposer une interface intuitive et adaptée aux utilisateurs sur ordinateurs",
+						},
+						{
+							text: "Réduire l’impact environnemental lié aux factures papier",
+						},
+					],
+				},
+				{
+					results: "Résultats",
+					content: [
+						{
+							text: "Génération de facture",
+						},
+						{
+							text: "Historique complet des factures consultable par utilisateur",
+						},
+						{
+							text: "Aperçu sur mes compétences en programmation et projet",
+						},
+					],
+				},
+			],
+		},
+		viteuf: {
+			cardFront: {
+				title: "Viteuf",
+				subTitle: "Restauration rapide",
+			},
+			cardBack: [
+				{
+					descriptions: "Descriptions",
+					content: [
+						{
+							text: "Projet 1 en groupe pendant la formation chez WildCodeSchoole",
+						},
+						{
+							text: "Plateforme de restauration rapide qui propose des repas prêts en 10-15 minutes, pour les gens pressés",
+						},
+						{
+							text: "Avec des catégories comme plat du jour, recettes anti-gaspi, Asian style et plus encore",
+						},
+					],
+				},
+				{
+					objectives: "Objectifs",
+					content: [
+						{
+							text: "Aider les gens dans leur quotidien",
+						},
+						{
+							text: "Promouvoir une alimentation rapide, saine et anti-gaspillage",
+						},
+						{
+							text: "Offrir une expérience utilisateur simple et rapide",
+						},
+					],
+				},
+				{
+					results: "Résultats",
+					content: [
+						{
+							text: "Catégorisation efficace des plats pour répondre rapidement aux envies et contraintes des utilisateurs",
+						},
+						{
+							text: "Valorisation de recettes rapides et accessibles en moins de 15 minutes",
+						},
+						{
+							text: "Expérience utilisateur fluide et agréable, même sur mobile",
+						},
+					],
+				},
+			],
+		},
+		pokedexPatrol: {
+			cardFront: {
+				title: "Pokedex Patrol",
+				subTitle: "Pokemon Papers Please",
+			},
+			cardBack: [
+				{
+					descriptions: "Descriptions",
+					content: [
+						{
+							text: "Un jeu web inspiré de Papers, Please, revisité dans l’univers Pokémon",
+						},
+						{
+							text: "L’utilisateur incarne un agent de contrôle aux frontières, chargé de vérifier les papiers des dresseurs et de leurs Pokémon avant de leur autoriser ou non l’entrée dans une région",
+						},
+					],
+				},
+				{
+					objectives: "Objectifs",
+					content: [
+						{
+							text: "Reproduire le concept de Papers, Please dans l’univers Pokémon",
+						},
+						{
+							text: "Développer une application web interactive avec une logique de vérification et de prise de décision",
+						},
+						{
+							text: "Gérer différentes règles et situations selon les régions et les documents présentés",
+						},
+					],
+				},
+				{
+					results: "Résultats",
+					content: [
+						{
+							text: "Expérience immersive et interactive fidèle à l’univers Pokémon",
+						},
+						{
+							text: "Gestion efficace de la logique de vérification et des règles métiers",
+						},
+						{
+							text: "Projet ludique qui a permis de travailler la manipulation de données et la gestion de flux utilisateurs",
+						},
+						{
+							text: "Projet mené en méthode agile avec des itérations courtes et des retours réguliers pour ajuster les fonctionnalités",
+						},
+					],
 				},
 			],
 		},

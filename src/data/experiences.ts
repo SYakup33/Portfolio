@@ -11,6 +11,7 @@ export const experiences = [
 		id: 1,
 		front: {
 			imgCompany: Avanade,
+			altImgCompany: "alt.avanade",
 			imgWorkTechnology: microsoftDynamics,
 			title: "experiences.avanade.cardFront.title",
 			subTitle: "experiences.avanade.cardFront.subTitle",

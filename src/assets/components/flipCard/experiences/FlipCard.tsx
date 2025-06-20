@@ -1,5 +1,5 @@
 import { useState } from "react";
-import FlipButton from "./FlipButton";
+import FlipButton from "../FlipButton";
 import "./FlipCard.css";
 import ReactCardFlip from "react-card-flip";
 import { useTranslation } from "react-i18next";
@@ -18,7 +18,7 @@ function FlipCard({ frontContent, backContent }: FlipCardProps) {
 
 	return (
 		<div className="my_experiences">
-			<h1 className="experiences_title">{t("experiences.cardSectionTitle")}</h1>
+			<h1>{t("experiences.cardSectionTitle")}</h1>
 			<ReactCardFlip flipDirection="horizontal" isFlipped={isFlipped}>
 				<div className="card card_front">
 					{frontContent}
