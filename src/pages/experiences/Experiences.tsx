@@ -1,7 +1,7 @@
 import Header from "../../assets/components/header/Header";
 import ExperiencesOverview from "../../assets/components/experiences/overview/ExperiencesOverview";
 import Footer from "../../assets/components/footer/Footer";
-import FlipCard from "../../assets/components/flipCard/FlipCard";
+import FlipCard from "../../assets/components/flipCard/experiences/FlipCard";
 import ExperiencesCardFront from "../../assets/components/experiences/cardFront/ExperiencesCardFront";
 import ExperiencesCardBack from "../../assets/components/experiences/cardBack/ExperiencesCardBack";
 import { experiences } from "../../data/experiences";
