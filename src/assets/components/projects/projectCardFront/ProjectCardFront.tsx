@@ -9,7 +9,7 @@ function ProjectCardFront({ project }: ProjectCardFrontProps) {
 	const { t } = useTranslation();
 
 	return (
-		<div className="">
+		<>
 			<img
 				className="project_company"
 				src={project.front.imgCompany}
@@ -61,7 +61,7 @@ function ProjectCardFront({ project }: ProjectCardFrontProps) {
 					</div>
 				)}
 			</div>
-		</div>
+		</>
 	);
 }
 

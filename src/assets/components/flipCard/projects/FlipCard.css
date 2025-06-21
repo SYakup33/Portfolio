@@ -15,6 +15,7 @@
 .card_front {
 	background: var(--card-front-bg-color);
 	max-width: 350px;
+	height: 800px;
 }
 
 .card_back {
