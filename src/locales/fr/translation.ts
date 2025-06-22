@@ -27,6 +27,7 @@ export const translationFrench = {
 		footerLinkedin: "Logo de Linkedin",
 		footerTwitter: "Logo de Twitter",
 		devImage: "Image d'un développeur",
+		skillsImage: "Image d'un architecte",
 		companyAvanade: "Logo d'Avanade",
 		workTechnologyMicrosoftDynamics: "ERP de Microsoft, Microsoft Dynamics",
 		calendar: "Un calendrier",
@@ -385,6 +386,118 @@ export const translationFrench = {
 					],
 				},
 			],
+		},
+	},
+	skills: {
+		overview: {
+			title: "Compétences",
+			content: [
+				{
+					text: "Découvrez ici les compétences que j’ai acquises et consolidées au fil de mon parcours, que ce soit en formation, en entreprise ou en autodidacte.",
+				},
+				{
+					text: "Du développement ERP Microsoft à la création de sites web en React, chaque compétence reflète une étape de mon évolution et mon envie constante d’apprendre.",
+				},
+				{
+					text: "Mon parcours m’a permis de toucher à différentes technologies, aussi bien back-end que front-end, et de développer un véritable goût pour les solutions adaptées aux besoins métiers.",
+				},
+			],
+		},
+		list: {
+			list1: {
+				title: "Développement WEB - Back end",
+				content: [
+					{
+						text: "Mettre en place une base de données relationnelle",
+					},
+					{
+						text: "Développer des composant d’accès aux données SQL et NoSQL",
+					},
+					{
+						text: "Développer des comosants métier côté serveur",
+					},
+					{
+						text: "Documenter le déploiement d’une application dynamique web ou web mobile",
+					},
+				],
+			},
+			list2: {
+				title: "Développement WEB - Front end",
+				content: [
+					{
+						text: "Installer et configurer son environnement de travail en fonction du projet web ou web mobile",
+					},
+					{
+						text: "Maquetter des interfaces utilisateurs web ou web mobile",
+					},
+					{
+						text: "Réaliser des interfaces utilisateur web ou web mobile",
+					},
+					{
+						text: "Développer la partie dynamique des interfaces utilisateur web ou web mobile",
+					},
+				],
+			},
+			list3: {
+				title:
+					"Concevoir et développer des composants d’interface utilisateur en intégrant les recommandations de sécurités",
+				content: [
+					{
+						text: "Maquetter une application",
+					},
+					{
+						text: "Développer une interface utilisateur de type desktop",
+					},
+					{
+						text: "Développer des comosants d’accès aux données",
+					},
+					{
+						text: "Développer la partie front-end d’une interface utilisateur web",
+					},
+					{
+						text: "Développer la partie back-end d’une interface utilisateur web",
+					},
+				],
+			},
+			list4: {
+				title:
+					"Concevoir et développer la persistance des données en intégrant les recommandations de sécurités",
+				content: [
+					{
+						text: "Concevoir une base de données",
+					},
+					{
+						text: "Mettre en place une base de données",
+					},
+					{
+						text: "Développer des composants dans le langage d’une base de données",
+					},
+				],
+			},
+			list5: {
+				title:
+					"Concevoir et développer une application multicouche répartie en intégrant les recommandations de sécurité",
+				content: [
+					{
+						text: "Collaborer à la gestion d’un projet informatique et à l’organisation de l’environnement de développement",
+					},
+					{
+						text: "Concevoir une application",
+					},
+					{
+						text: "Développer des composants métier",
+					},
+					{
+						text: "Construire une application organisées en couches",
+					},
+					{
+						text: "Préparer et exécuter les plans de tests d’une application",
+					},
+					{
+						text: "Préparer et exécuter le déploiement d’une application",
+					},
+				],
+			},
 		},
 	},
 };

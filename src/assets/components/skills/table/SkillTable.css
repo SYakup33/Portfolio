@@ -1,0 +1,43 @@
+#skill_table {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	margin: 0 auto 1em auto;
+}
+
+#skill_table #skill_table_title {
+	background-color: var(--list-bg-color);
+	padding: 0.3em;
+}
+
+#skill_table .skills_table_items {
+	display: flex;
+	flex-direction: column;
+}
+
+#skill_table .skills_table_items .skills_table_item {
+	background-color: var(--list-item-bg-color);
+	padding: 1em 0 0 1em;
+	display: flex;
+	justify-content: space-between;
+}
+
+#skill_table .skills_table_items .skills_table_item .checkmark {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 20px;
+	height: 20px;
+	border: 2px solid #000; /* contour noir */
+	border-radius: 50%;
+	background-color: #000; /* fond noir */
+	color: #fff; /* check blanc */
+	font-weight: bold;
+	position: relative;
+	margin: 0 1em 0.5em 0;
+}
+
+#skill_table .skills_table_items .skills_table_item .checkmark:hover {
+	transform: scale(1.2);
+	transition: transform 0.2s ease;
+}
