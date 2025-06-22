@@ -27,6 +27,7 @@ export const translationEnglish = {
 		footerLinkedin: "Logo of Linkedin",
 		footerTwitter: "Logo of Twitter",
 		devImage: "Image of a developer",
+		skillsImage: "Image of an architect",
 		companyAvanade: "Logo of Avanade",
 		workTechnologyMicrosoftDynamics: "ERP from Microsoft, Microsoft Dynamics",
 		calendar: "A calendar",
@@ -385,6 +386,119 @@ export const translationEnglish = {
 					],
 				},
 			],
+		},
+	},
+	skills: {
+		overview: {
+			title: "Skills",
+			content: [
+				{
+					text: "Discover here the skills I have acquired and consolidated over the course of my career, whether in training, in a company or as a self-taught person.",
+					checked: true,
+				},
+				{
+					text: "From Microsoft ERP development to the creation of websites in React, each skill reflects a stage in my development and my constant desire to learn.",
+				},
+				{
+					text: "My career has enabled me to work with different technologies, both back-end and front-end, and to develop a real taste for solutions tailored to business needs.",
+				},
+			],
+		},
+		list: {
+			list1: {
+				title: "WEB development - Back end",
+				content: [
+					{
+						text: "Setting up a relational database",
+					},
+					{
+						text: "Developing SQL and NoSQL data access components",
+					},
+					{
+						text: "Developing server-side business components",
+					},
+					{
+						text: "Documenting the deployment of a dynamic web or mobile web application",
+					},
+				],
+			},
+			list2: {
+				title: "WEB development - Front end",
+				content: [
+					{
+						text: "Installing and configuring your work environment to suit your web or mobile web project",
+					},
+					{
+						text: "Designing web or mobile web user interfaces",
+					},
+					{
+						text: "Creating web or mobile web user interfaces",
+					},
+					{
+						text: "Developing the dynamic part of web or mobile web user interfaces",
+					},
+				],
+			},
+			list3: {
+				title:
+					"Designing and developing user interface components integrating security recommendations",
+				content: [
+					{
+						text: "Modelling an application",
+					},
+					{
+						text: "Developing a desktop-type user interface",
+					},
+					{
+						text: "Developing data access components",
+					},
+					{
+						text: "Developing the front-end of a web user interface",
+					},
+					{
+						text: "Developing the back-end of a web user interface",
+					},
+				],
+			},
+			list4: {
+				title:
+					"Designing and developing data persistence integrating security recommendations",
+				content: [
+					{
+						text: "Designing a database",
+					},
+					{
+						text: "Implementing a database",
+					},
+					{
+						text: "Developing components in the language of a database",
+					},
+				],
+			},
+			list5: {
+				title:
+					"Design and develop a distributed multilayer application integrating security recommendations",
+				content: [
+					{
+						text: "Collaborate in the management of an IT project and the organisation of the development environment",
+					},
+					{
+						text: "Design an application",
+					},
+					{
+						text: "Develop business components",
+					},
+					{
+						text: "Build a layered application",
+					},
+					{
+						text: "Prepare and execute application test plans",
+					},
+					{
+						text: "Prepare and execute application deployment",
+					},
+				],
+			},
 		},
 	},
 };
