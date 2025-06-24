@@ -34,6 +34,8 @@ footer #mail {
 	grid-area: 5 / 1 / 6 / 4;
 	display: flex;
 	font-size: var(--footer-p-size);
+	color: var(--header-footer-font-color);
+	align-items: center;
 }
 
 footer #mail img {

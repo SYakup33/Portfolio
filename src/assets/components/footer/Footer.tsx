@@ -10,15 +10,13 @@ function Footer() {
 
 	return (
 		<footer>
-			<h3 id="name">Yakup SENEL</h3>
-			<h4 id="social">{t("footer.social")}</h4>
+			<h2 id="name">Yakup SENEL</h2>
+			<h2 id="social">{t("footer.social")}</h2>
 			<cite id="citation">{t("footer.bio")}</cite>
-			<div id="mail">
-				<a href="mailto:yakup.senel33@gmail.com">
-					<img src={mail} alt={t("alt.footerMail")} />
-				</a>
-				<a href="mailto:yakup.senel33@gmail.com">yakup.senel33@gmail.com</a>
-			</div>
+			<a id="mail" href="mailto:yakup.senel33@gmail.com">
+				<img src={mail} alt={t("alt.footerMail")} />
+				<p>yakup.senel33@gmail.com</p>
+			</a>
 			<a id="github" href="https://github.com/SYakup33">
 				<img src={github} alt={t("alt.footerGithub")} />
 			</a>

@@ -26,7 +26,7 @@ export const translationEnglish = {
 		footerGithub: "Logo of Github",
 		footerLinkedin: "Logo of Linkedin",
 		footerTwitter: "Logo of Twitter",
-		devImage: "Image of a developer",
+		devImage: "A developer in his office with his coffee",
 		skillsImage: "Image of an architect",
 		companyAvanade: "Logo of Avanade",
 		workTechnologyMicrosoftDynamics: "ERP from Microsoft, Microsoft Dynamics",
