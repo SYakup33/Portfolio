@@ -17,11 +17,11 @@ function FlipCard({ frontContent, backContent }: FlipCardProps) {
 		<>
 			<div className="my_projects">
 				<ReactCardFlip flipDirection="horizontal" isFlipped={isFlipped}>
-					<div className="card card_front">
+					<div className="card card_front_projects">
 						{frontContent}
 						<FlipButton onClick={flipCard} isFlipped={isFlipped} />
 					</div>
-					<div className="card card_back">
+					<div className="card card_back_projects">
 						{backContent}
 						<FlipButton onClick={flipCard} isFlipped={isFlipped} />
 					</div>
