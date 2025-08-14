@@ -9,7 +9,7 @@ interface Project {
 		subTitle: string;
 		images: { image: string; alt: string }[];
 		imagePlanner: string;
-		time: string;
+		time: number;
 		timeType: string;
 		peoples?: string;
 		nbrPeople?: string;
@@ -52,7 +52,7 @@ function ProjectCardFront({ project }: ProjectCardFrontProps) {
 						className="project_front_logo"
 					/>
 					<p>
-						{t(project.front.time)}&nbsp;&nbsp;
+						{t(project.front.time.toString())}&nbsp;&nbsp;
 						{t(project.front.timeType)}
 					</p>
 				</div>
