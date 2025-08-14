@@ -10,6 +10,7 @@ interface Skill {
 	id: number;
 	title: string;
 	content: string;
+	checkedItems: boolean[];
 }
 
 interface SkillProps {
