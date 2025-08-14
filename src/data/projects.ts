@@ -17,6 +17,10 @@ import ReactLogo from "../assets/images/projects/cardFront/react.svg";
 import Typescript from "../assets/images/projects/cardFront/typescript.svg";
 import WebForce3 from "../assets/images/projects/cardFront/webforce3.svg";
 import WildCodeSchool from "../assets/images/projects/cardFront/wildcodeschool.svg";
+import InnovPrint3D from "../assets/images/projects/cardFront/innovprint3d.svg";
+import Express from "../assets/images/projects/cardFront/Express.svg";
+import SQL from "../assets/images/projects/cardFront/SQL.svg";
+import Postman from "../assets/images/projects/cardFront/Postman.svg";
 
 export const projects = [
 	{
@@ -238,5 +242,59 @@ export const projects = [
 			link: "https://pokedex-patrol-yakup.vercel.app/",
 		},
 		back: { cardBackTextKey: "projects.pokedexPatrol.cardBack" },
+	},
+	{
+		id: 5,
+		title: "InnovPrint3D",
+		front: {
+			imgCompany: InnovPrint3D,
+			altImgCompany: "alt.innovprint3d",
+			title: "projects.innovprint3d.cardFront.title",
+			subTitle: "projects.innovprint3d.cardFront.subTitle",
+			images: [
+				{
+					image: Html,
+					alt: "alt.html",
+				},
+				{
+					image: Css,
+					alt: "alt.css",
+				},
+				{
+					image: Typescript,
+					alt: "alt.typescript",
+				},
+				{
+					image: Express,
+					alt: "alt.express",
+				},
+				{
+					image: SQL,
+					alt: "alt.sql",
+				},
+				{
+					image: Postman,
+					alt: "alt.postman",
+				},
+				{
+					image: Github,
+					alt: "alt.github",
+				},
+				{
+					image: Json,
+					alt: "alt.json",
+				},
+				{
+					image: Figma,
+					alt: "alt.figma",
+				},
+			],
+			imagePlanner: Planner,
+			time: 2,
+			timeType: "global.months",
+			nbrPeople: 4,
+			peoples: Peoples,
+		},
+		back: { cardBackTextKey: "projects.innovprint3d.cardBack" },
 	},
 ];
