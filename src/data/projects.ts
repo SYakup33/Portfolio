@@ -265,6 +265,10 @@ export const projects = [
 					alt: "alt.typescript",
 				},
 				{
+					image: ReactLogo,
+					alt: "alt.react",
+				},
+				{
 					image: Express,
 					alt: "alt.express",
 				},
