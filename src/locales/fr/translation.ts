@@ -26,7 +26,7 @@ export const translationFrench = {
 		footerGithub: "Logo de Github",
 		footerLinkedin: "Logo de Linkedin",
 		footerTwitter: "Logo de Twitter",
-		devImage: "Image d'un développeur",
+		devImage: "Un développeur dans son bureau avec son café",
 		skillsImage: "Image d'un architecte",
 		companyAvanade: "Logo d'Avanade",
 		workTechnologyMicrosoftDynamics: "ERP de Microsoft, Microsoft Dynamics",
@@ -42,6 +42,7 @@ export const translationFrench = {
 		devPic: "Logo d'un développeur",
 		wf3: "Logo de l'école Webforce3",
 		wcs: "Logo de l'école WildCodeSchool",
+		innovprint3d: "Logo de l'entreprise Innov Print 3d",
 		html: "Logo du langage HTML",
 		css: "Logo du langage CSS",
 		react: "Logo de la librairie React",
@@ -51,6 +52,9 @@ export const translationFrench = {
 		planner: "Logo d'un planning",
 		link: "Logo d' une épingle",
 		github: "Logo de Github",
+		express: "Logo d'Express",
+		postman: "Logo de Postman",
+		sql: "Logo de SQL",
 		figma: "Logo du logiciel Figma",
 		blazor: "Logo du framework Blazor",
 		csharp: "Logo Logo du langage C#",
@@ -382,6 +386,56 @@ export const translationFrench = {
 						},
 						{
 							text: "Projet mené en méthode agile avec des itérations courtes et des retours réguliers pour ajuster les fonctionnalités",
+						},
+					],
+				},
+			],
+		},
+		innovprint3d: {
+			cardFront: {
+				title: "Innov Print 3D",
+				subTitle: "Site de vente de produit 3D",
+			},
+			cardBack: [
+				{
+					descriptions: "Descriptions",
+					content: [
+						{
+							text: "Site e-commerce spécialisé dans la vente de produits imprimés en 3D, destiné à présenter et vendre les créations d’InnovPrint3D",
+						},
+						{
+							text: "Permet aux utilisateurs de parcourir le catalogue, consulter les fiches produits détaillées, ajouter des articles au panier et finaliser leur commande en ligne",
+						},
+					],
+				},
+				{
+					objectives: "Objectifs",
+					content: [
+						{
+							text: "Mettre en place une plateforme e-commerce ergonomique et responsive",
+						},
+						{
+							text: "Gérer l’intégration des produits et des images avec un système d’upload sécurisé",
+						},
+						{
+							text: "Implémenter la gestion des commandes, du panier et des utilisateurs",
+						},
+						{
+							text: "Proposer une expérience fluide avec un design moderne et attractif",
+						},
+					],
+				},
+				{
+					results: "Résultats",
+					content: [
+						{
+							text: "Plateforme e-commerce fonctionnelle et intuitive adaptée aux besoins d’InnovPrint3D",
+						},
+						{
+							text: "Gestion complète du catalogue et des commandes via une interface simple d’utilisation",
+						},
+						{
+							text: "Intégration réussie d’un système de téléchargement et d’affichage des images produits",
 						},
 					],
 				},

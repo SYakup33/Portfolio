@@ -19,9 +19,9 @@ function ExperiencesOverview() {
 					<img src={experiencesOverview} alt={t("alt.experiencesOverview")} />
 				</figure>
 				{experiencesOverviewContent.map((experience, index) => (
-					<h3 className="experiences_overview_content" key={index}>
+					<h2 className="experiences_overview_content" key={index}>
 						{experience.text}
-					</h3>
+					</h2>
 				))}
 			</article>
 			<hr className="content_change" />

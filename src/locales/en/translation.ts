@@ -26,7 +26,7 @@ export const translationEnglish = {
 		footerGithub: "Logo of Github",
 		footerLinkedin: "Logo of Linkedin",
 		footerTwitter: "Logo of Twitter",
-		devImage: "Image of a developer",
+		devImage: "A developer in his office with his coffee",
 		skillsImage: "Image of an architect",
 		companyAvanade: "Logo of Avanade",
 		workTechnologyMicrosoftDynamics: "ERP from Microsoft, Microsoft Dynamics",
@@ -42,6 +42,7 @@ export const translationEnglish = {
 		devPic: "Developer logo",
 		wf3: "Webforce3 school logo",
 		wcs: "WildCodeSchool logo",
+		innovprint3d: "Innov Print 3D company logo",
 		html: "HTML language logo",
 		css: "CSS language logo",
 		react: "React library logo",
@@ -51,6 +52,9 @@ export const translationEnglish = {
 		planner: "Planner logo",
 		link: "Pin logo",
 		github: "Github logo",
+		express: "Express logo",
+		postman: "Postman logo",
+		sql: "SQL logo",
 		figma: "Figma software logo",
 		blazor: "Blazor framework logo",
 		csharp: "C# language logo",
@@ -382,6 +386,56 @@ export const translationEnglish = {
 						},
 						{
 							text: "A project run using an agile method with short iterations and regular feedback to adjust functionality",
+						},
+					],
+				},
+			],
+		},
+		innovprint3d: {
+			cardFront: {
+				title: "Innov Print 3D",
+				subTitle: "3D product sales website",
+			},
+			cardBack: [
+				{
+					descriptions: "Descriptions",
+					content: [
+						{
+							text: "E-commerce site specialising in the sale of 3D-printed products, designed to showcase and sell InnovPrint3D creations",
+						},
+						{
+							text: "Allows users to browse the catalogue, view detailed product descriptions, add items to their basket and complete their order online",
+						},
+					],
+				},
+				{
+					objectives: "Objectifs",
+					content: [
+						{
+							text: "Set up an ergonomic and responsive e-commerce platform",
+						},
+						{
+							text: "Manage the integration of products and images with a secure upload system",
+						},
+						{
+							text: "Implement order, basket and user management",
+						},
+						{
+							text: "Offer a seamless experience with a modern and attractive design",
+						},
+					],
+				},
+				{
+					results: "Résultats",
+					content: [
+						{
+							text: "Functional and intuitive e-commerce platform tailored to the needs of InnovPrint3D",
+						},
+						{
+							text: "Complete catalogue and order management via a user-friendly interface",
+						},
+						{
+							text: "Successful integration of a product image download and display system",
 						},
 					],
 				},
