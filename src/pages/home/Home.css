@@ -1,0 +1,27 @@
+#home_figure {
+	width: 40%;
+	margin: auto;
+	margin-top: 2em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#home_figure img {
+	width: 80%;
+	margin: auto;
+}
+
+#home_figure figcaption h1 {
+	font-size: var(--home-title-size);
+}
+
+.content {
+	margin-top: 1.5em;
+	margin-left: 2em;
+	font-size: var(--home-p-size);
+}
+
+.content:last-of-type {
+	margin-bottom: 1em;
+}

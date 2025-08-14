@@ -1,0 +1,62 @@
+.project_company {
+	width: 300px;
+	height: 300px;
+}
+
+.project_title {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 1em;
+	font-size: var(--card-project-title-size);
+}
+
+.project_card_content_front {
+	display: flex;
+	flex-direction: column;
+}
+
+.other_images {
+	margin-top: 2em;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.project_front_logos {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1em;
+	justify-content: center;
+	margin: 1.5em 0;
+	max-width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.project_front_logo {
+	width: 50px;
+	height: auto;
+	object-fit: contain;
+	transition: transform 0.2s ease;
+}
+
+.project_front_logo:hover {
+	transform: scale(1.1);
+}
+
+.planner {
+	display: flex;
+	align-items: center;
+}
+
+.planner p {
+	margin-left: 1em;
+}
+
+.peoples {
+	display: flex;
+	align-items: center;
+}
+
+.peoples p {
+	margin-left: 1em;
+}

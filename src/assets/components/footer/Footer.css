@@ -1,0 +1,83 @@
+footer {
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-template-rows: repeat(7, 1fr);
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	background-color: var(--header-footer-bg-color);
+	color: var(--header-footer-font-color);
+}
+
+footer #name {
+	grid-area: 2 / 2 / 3 / 4;
+	align-self: center;
+	justify-self: center;
+	font-size: var(--footer-title-size);
+}
+
+footer #social {
+	grid-area: 2 / 6 / 3 / 8;
+	align-self: center;
+	justify-self: center;
+	font-size: var(--footer-title-size);
+}
+
+footer #citation {
+	grid-area: 3 / 1 / 5 / 5;
+	align-self: center;
+	justify-self: center;
+	font-size: var(--footer-p-size);
+	margin-left: 1em;
+}
+
+footer #mail {
+	grid-area: 5 / 1 / 6 / 4;
+	display: flex;
+	font-size: var(--footer-p-size);
+	color: var(--header-footer-font-color);
+	align-items: center;
+}
+
+footer #mail img {
+	margin: 0 1em 0 1em;
+}
+
+footer #mail a {
+	height: 100%;
+	align-self: flex-start;
+	color: var(--header-footer-font-color);
+}
+
+footer #github {
+	grid-area: 4 / 6 / 5 / 7;
+}
+
+footer #github img {
+	width: 30%;
+}
+
+footer #linkedin {
+	grid-area: 4 / 7 / 5 / 8;
+}
+
+footer #linkedin img {
+	width: 30%;
+}
+
+footer #twitter {
+	grid-area: 4 / 8 / 5 / 9;
+}
+
+footer #twitter img {
+	width: 30%;
+}
+
+footer hr {
+	grid-area: 6 / 2 / 7 / 8;
+	border: 2px solid var(--header-footer-font-color);
+	max-height: 1%;
+}
+
+footer #copyright {
+	grid-area: 7 / 4 / 8 / 6;
+}

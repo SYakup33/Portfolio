@@ -1,0 +1,42 @@
+.projects_overview_article #projects_overview_figure {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-evenly;
+	margin-top: 5em;
+	margin-bottom: 2em;
+}
+
+.projects_overview_article #projects_overview_figure #projects_overview_title {
+	font-family: var(--main-font);
+	color: var(--font-color);
+	text-decoration: underline;
+	font-weight: 900;
+}
+
+.projects_overview_article .projects_overview_content {
+	width: 80%;
+	margin: 1em auto;
+	font-size: var(--pages-overview-size);
+}
+
+.projects_overview_main {
+	width: 90%;
+	margin: auto;
+	font-size: var(--card-subtitle-size);
+}
+
+.projects_overview_list {
+	list-style-type: disc;
+	margin-left: 2rem;
+	padding-left: 0;
+}
+
+.projects_overview_item {
+	font-size: 1.1rem;
+	line-height: 1.4;
+	width: 80%;
+	margin: 1em auto;
+	font-size: var(--card-p-size);
+	list-style-type: disc;
+}
