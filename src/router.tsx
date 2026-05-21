@@ -1,30 +1,32 @@
-import { createBrowserRouter } from "react-router";
-import Home from "./pages/home/Home.tsx";
-import "./pages/home/Home.css";
-import Experiences from "./pages/experiences/Experiences.tsx";
-import "./pages/experiences/Experiences.css";
-import Projects from "./pages/projects/Projects.tsx";
-import "./pages/home/Home.css";
-import Skills from "./pages/skills/Skills.tsx";
-import "./pages/home/Home.css";
+import { createBrowserRouter } from "react-router-dom";
 
-const router = createBrowserRouter([
+import Home from "./pages/home/Home";
+import Experiences from "./pages/experiences/Experiences";
+import Projects from "./pages/projects/Projects";
+import Skills from "./pages/skills/Skills";
+
+const router = createBrowserRouter(
+	[
+		{
+			path: "/",
+			element: <Home />,
+		},
+		{
+			path: "/experiences",
+			element: <Experiences />,
+		},
+		{
+			path: "/projects",
+			element: <Projects />,
+		},
+		{
+			path: "/skills",
+			element: <Skills />,
+		},
+	],
 	{
-		path: "/",
-		element: <Home />,
+		basename: "/Portfolio",
 	},
-	{
-		path: "/experiences",
-		element: <Experiences />,
-	},
-	{
-		path: "/projects",
-		element: <Projects />,
-	},
-	{
-		path: "/skills",
-		element: <Skills />,
-	},
-]);
+);
 
 export default router;
